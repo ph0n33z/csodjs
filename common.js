@@ -1,6 +1,6 @@
 $(document).ready(function()    {
         
-$ smjquery('#main-menu').smartmenus('refresh')
+$(smjquery('#main-menu').smartmenus('refresh'))
 
 $('.cso-txt span:contains("Online Class")').each(function(){
  $(this).html($(this).html().replace('Online Class','Web-Based Training'));
@@ -18,4 +18,4 @@ var box = $('#container2 span:contains("No assigned training")');
    box.parents('#container2').children(':contains("No assigned training")').hide();
 }
 
-}); 
+});
