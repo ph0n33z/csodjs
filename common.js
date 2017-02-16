@@ -1,4 +1,3 @@
-     
 $smjquery('#main-menu').smartmenus('refresh')
 
 $('.cso-txt span:contains("Online Class")').each(function(){
