@@ -1,5 +1,4 @@
 $(document).ready(function() {
-    $("select,input").change(function() {
 
 $smjquery('#main-menu').smartmenus('refresh')
 
@@ -19,7 +18,5 @@ var box = $('#container2 span:contains("No assigned training")');
    box.parents('#container2').children(':contains("No assigned training")').hide();
 }
 
-    });
-
-});  
+    }); 
 
