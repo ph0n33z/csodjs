@@ -9,16 +9,4 @@ $(document).ready(function(){
    	box.parents('#container2').children(':contains("No assigned training")').hide();
 	}
 
-	$('.cso-txt span:contains("Online Class")').each(function(){
- 	$(this).html($(this).html().replace('Online Class','Web-Based Training'));
-	});
-
-	$('[title="Browse for Training"]').each(function(){
- 	$(this).html($(this).html().replace('Browse for Training','Browse Learning'));
-	});
-
-	$('[title="Manage Employee Learning"]').each(function(){
- 	$(this).html($(this).html().replace('Manage Employee Learning','Manage My Learners'));
-	});
-
 });
