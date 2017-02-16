@@ -13,6 +13,14 @@ $(document).ready(function(){
  	$(this).html($(this).html().replace('Online Class','Web-Based Training'));
 	});
 
+	$('[title="Browse for Training"]').each(function(){
+ 	$(this).html($(this).html().replace('Browse for Training','Browse Learning'));
+	});
+
+	$('[title="Manage Employee Learning"]').each(function(){
+ 	$(this).html($(this).html().replace('Manage Employee Learning','Manage My Learners'));
+	});
+
 	$('[data-original-title="Online Class"]').attr('data-original-title', 'changed tooltip');
      $('.tooltip-cso').tooltip();
 
