@@ -9,4 +9,8 @@ $(document).ready(function(){
    	box.parents('#container2').children(':contains("No assigned training")').hide();
 	}
 
+	$('.cso-txt span:contains("Online Class")').each(function(){
+ 	$(this).html($(this).html().replace('Online Class','Web-Based Training'));
+	});
+
 });
