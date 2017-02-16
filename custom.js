@@ -13,7 +13,7 @@ $(document).ready(function(){
  	$(this).html($(this).html().replace('Online Class','Web-Based Training'));
 	});
 
-	$('.navTabs-subTabList div:contains("Browse for Training")').each(function(){
+	$('.navTabs-subTabList a:contains("Browse for Training")').each(function(){
  	$(this).html($(this).html().replace('Browse for Training','Browse Learning'));
 	});
 
